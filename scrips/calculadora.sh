@@ -1,5 +1,5 @@
 #!/bin/bash
-# Script ejercicio4
+# Script ejerciciocalculadora
 # Autor: Mario Casau Fajardo
 # Fecha:  04-2-2025
 
