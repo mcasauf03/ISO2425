@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ejercicio1
+# Ejercicioagenda
 # Autor: Mario Casau Fajardo
 # Fecha:03/02/2025
 
