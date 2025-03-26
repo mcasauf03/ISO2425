@@ -25,7 +25,7 @@ if uid == 0:
                 cont=fich.readlines()
                 enc = 0
                 for i in cont:
-                    if usuario in i:
+                    if i.split(":")[0] == usuario:
                         enc =1
                         final=i
                         break
@@ -33,7 +33,7 @@ if uid == 0:
                     print(final)
                 else:
                     print("Usuario no encontrado")
-                    os.system("useradd "+usuario)
+                    os.system("useradd ", usuario)
             case '3':
                 direc = input("Dime el nombre de un directorio: ")
                 if os.path.exists(direc) and os.path.isdir(direc):
